@@ -6,18 +6,44 @@
     <title>My Tweets</title>
 </head>
 <body>
-    <h1>My Embedded Tweets</h1>
 
-    <!-- Twitter Embedded Tweet -->
-    <blockquote class="twitter-tweet">
-        <p lang="en" dir="ltr">
-            Learning HTML and creating my first portfolio website! 🚀
-        </p>
-        &mdash; Your Twitter Handle (@yourhandle) 
-        <a href="https://twitter.com/yourhandle/status/tweetID">March 23, 2025</a>
-    </blockquote> 
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <!-- Header with Navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tweets.html">Tweets</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <p><a href="index.html">Back to Homepage</a></p>
+    <!-- Main Content -->
+    <main>
+        <!-- Article Section with Tweet -->
+        <article>
+            <h1>My Embedded Tweets</h1>
+
+            <blockquote class="twitter-tweet">
+                <p lang="en" dir="ltr">
+                    Learning HTML and creating my first portfolio website! 🚀
+                </p>
+                &mdash; Your Twitter Handle (<a href="https://twitter.com/yourhandle">@yourhandle</a>) 
+                <a href="https://twitter.com/yourhandle/status/tweetID">March 23, 2025</a>
+            </blockquote> 
+
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </article>
+
+        <!-- Placeholder for Comment Section -->
+        <aside>
+            <p>Placeholder to add comment thread later</p>
+        </aside>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Made by <YOUR NAME> - <a href="<ANY LINK>" target="_blank">here</a></p>
+    </footer>
+
 </body>
 </html>
